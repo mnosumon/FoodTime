@@ -1,0 +1,453 @@
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .container{
+        max-width: 100%;
+    }
+    h2, p{
+        text-align: center;
+    }
+    
+    .navbar{
+        padding: 20px 15px 10px;
+        background:  rgb(245 158 11) !important;
+    }
+    .navbar-nav {
+        gap: 2px;
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .nav-link{
+        padding: 5px 0;
+        transition: 0.7s;
+    }
+    .nav-link:hover{
+        background: #fff;
+    }
+    .nav_btn {
+        padding: 0px 20px;
+        font-size: 16px;
+    }
+    
+    .btn_cart_flex{
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    .cart{
+        height: 35px;
+        width: 35px;
+        margin: 0;
+    }
+    .cart i {
+        font-size: 20px;
+    }
+    .cart::after {
+        content: '2';
+        left: 26px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 100%;
+        height: 15px;
+        width: 15px;
+    }
+    
+
+/* ====================================================================== */
+
+    #banner .container {
+        padding: 40px 0 30px;
+    }
+
+    .banner_header {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 115%;
+        width: 100%;
+    }
+    #banner p {
+        font-size: 20px;
+        padding: 20px 0;
+        font-weight: 400;
+    }
+    .banner_search {
+        width: auto;
+        height: 40px;
+    }
+
+    .banner_search button i {
+        left: 12px;
+        font-size: 14px;
+    }
+    .banner_search::before {
+        height: 30px;
+        width: 30px;
+    }
+    .banner_search button {
+        left: 100%;
+        font-size: 14px;
+        padding: 0 16px 0 40px;
+        transform: translateX(-100%);
+        top: 0;
+    }
+    input {
+        padding: 0 115px 0 48px;
+        font-size: 18px;
+    }
+    .banner_image {
+        height: auto;
+        width: auto;
+        position: sticky;
+        padding-top: 20px;
+    }
+    .banner_wrapper .col-lg-5{
+        padding-top: 60px;
+    }
+    .pata_1 {
+        width: 120px;
+        height: 180px;
+        top: -116px;
+        left: -22px;
+    }
+    .pata_2 {
+        width: 180px;
+        height: 180px;
+        top: 1%;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+
+    /* =============================================================== */
+    .ricksha_header {
+        font-size: 40px;
+        width: auto;
+    }
+    #ricksha p {
+        font-size: 14px;
+        width: 100%;
+        padding: 10px 0 6px;
+    }
+    .ricksha_btn {
+        font-size: 16px;
+        padding: 5px 30px 5px 10px;
+        height: 35px;
+    }
+    .ricksha_btn i {
+        right: 7px;
+        
+    }
+
+    .ricksha_image {
+        width: auto;
+    }
+    .cycle_bg {
+        width: auto;
+        height: auto;
+    }
+    .cycle {
+        width: auto;
+        height: auto;
+    }
+    #ricksha .col-12{
+        text-align: center;
+    }
+}
+
+
+/* ======================================================================= */
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .container{
+        max-width: 100%;
+    }
+    
+
+    .navbar{
+        padding: 20px;
+        background:  rgb(245 158 11) !important;
+    }
+    .navbar-nav {
+        gap: 2px;
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .nav-link{
+        padding: 5px 0;
+        transition: 0.7s;
+    }
+    .nav-link:hover{
+        background: #fff;
+    }
+    .nav_btn {
+        padding: 4px 36px;
+        font-size: 16px;
+    }
+    
+    .btn_cart_flex{
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+    .cart{
+        height: 35px;
+        width: 35px;
+        margin: 0;
+    }
+    .cart i {
+        font-size: 20px;
+    }
+    .cart::after {
+        content: '2';
+        left: 26px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 100%;
+        height: 15px;
+        width: 15px;
+    }
+    
+
+    /* ====================================================================== */
+
+    #banner .container {
+        padding: 46px 0 30px;
+        text-align: center;
+    }
+    .pata_1 {
+        width: 150px;
+        height: 220px;
+        top: -149px;
+        left: -22px;
+    }
+    .pata_2 {
+        width: 270px;
+        height: 250px;
+        top: 0;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .banner_header {
+        font-size: 40px;
+        width: 450px;
+        margin: 0 auto;
+    }
+    #banner p {
+        padding: 20px 0;
+    }
+    .banner_search {
+        width: auto;
+        height: 40px;
+    }
+    .banner_search button i {
+        left: 15px;
+        font-size: 16px;
+    }
+    .banner_search::before {
+        height: 30px;
+        width: 30px;
+    }
+    .banner_search button {
+        left: 100%;
+        font-size: 14px;
+        padding: 0 16px 0 40px;
+        transform: translateX(-100%);
+        top: 0;
+    }
+    input {
+        padding: 0 115px 0 48px;
+        font-size: 18px;
+    }
+    .banner_wrapper .col-lg-5{
+        padding-top: 80px;
+    }
+    .banner_image {
+        height: auto;
+        width: auto;
+        position: sticky;
+        padding-top: 20px;
+    }
+
+    /* =============================================================== */
+    .ricksha_header {
+        font-size: 48px;
+        width: 450px;
+        margin: 0 auto;
+    }
+    #ricksha p {
+        font-size: 16px;
+        width: 100%;
+        padding: 15px 0 10px;
+    }
+    .ricksha_btn {
+        font-size: 16px;
+        padding: 5px 40px 5px 15px;
+    }
+    .ricksha_btn i {
+        right: 10px;
+        
+    }
+
+    .ricksha_image {
+        width: auto;
+    }
+    .cycle_bg {
+        width: auto;
+        height: auto;
+    }
+    .cycle {
+        width: auto;
+        height: auto;
+    }
+    #ricksha .col-12{
+        text-align: center;
+    }
+}
+
+/* ================================================================== */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .container{
+        max-width: 100%;
+    }
+    
+
+    .navbar{
+        padding: 20px;
+        background:  rgb(245 158 11) !important;
+    }
+    .navbar-nav {
+        gap: 7px;
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .nav-link{
+        padding: 5px 0;
+        font-size: 20px;
+        transition: 0.7s;
+    }
+    .nav-link:hover{
+        background: #fff;
+    }
+    .nav_btn {
+        padding: 10px 48px;
+        font-size: 18px;
+    }
+    
+    .btn_cart_flex {
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+    .cart {
+        height: 45px;
+        width: 45px;
+        margin: 0;
+    }
+    .cart i {
+        font-size: 25px;
+    }
+    .cart::after {
+        content: '2';
+        left: 35px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 100%;
+        height: 18px;
+        width: 18px;
+        top: -5px;
+    }
+    /* ========================================================== */
+
+    #banner .container {
+        padding: 100px 0 30px;
+        text-align: center;
+    }
+    .pata_1 {
+        width: 220px;
+        height: 280px;
+        top: -195px;
+        left: -35px;
+    }
+    .pata_2 {
+        width: 350px;
+        height: 320px;
+        top: 0;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .banner_header {
+        font-size: 48px;
+        width: 700px;
+        margin: 0 auto;
+    }
+    #banner p {
+        padding: 35px 0;
+    }
+    .banner_search {
+        width: 600px;
+        height: 45px;
+        margin: 0 auto;
+    }
+    .banner_search button i {
+        left: 15px;
+        font-size: 18px;
+    }
+    .banner_search::before {
+        height: 30px;
+        width: 30px;
+    }
+    .banner_search button {
+        left: 100%;
+        font-size: 18px;
+        padding: 0 20px 0 48px;
+        transform: translateX(-100%);
+        top: 0;
+    }
+    input {
+        padding: 0 140px 0 50px;
+        font-size: 18px;
+    }
+    .banner_wrapper .col-lg-5{
+        padding-top: 80px;
+    }
+    .banner_image {
+        height: 700px;
+        width: 700px;
+        position: sticky;
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+
+    /* ======================================================================= */
+    .ricksha_header {
+        font-size: 56px;
+        width: 600px;
+        margin: 0 auto;
+    }
+    #ricksha p {
+        font-size: 18px;
+        width: 100%;
+        padding: 15px 50px 10px;
+    }
+    .ricksha_btn {
+        font-size: 18px;
+        padding: 10px 50px 10px 20px;
+    }
+    .ricksha_btn i {
+        right: 17px;
+        
+    }
+
+    .ricksha_image {
+        width: auto;
+    }
+    .cycle_bg {
+        width: auto;
+        height: auto;
+    }
+    .cycle {
+        width: auto;
+        height: auto;
+        top: 15%;
+    }
+    #ricksha .col-12{
+        text-align: center;
+    }
+}
