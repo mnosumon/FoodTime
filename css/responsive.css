@@ -451,3 +451,15 @@
         text-align: center;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .nav-link {
+        padding-right: 0 !important;
+    }
+    .nav_btn {
+        padding: 12px 50px;
+        border-radius: 35px;
+        background: #396C03;
+        border: none;
+    }
+}
